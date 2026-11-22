@@ -1,0 +1,27 @@
+export const CONFIG = {
+  width: 1280,
+  height: 720,
+  thiefSpeed: 168,
+  thiefSneakSpeed: 84,
+  thiefRadius: 13,
+  hearingNormal: 86,
+  hearingSneak: 26,
+  guardSpeed: 72,
+  guardAlertSpeed: 118,
+  guardViewDist: 210,
+  guardViewAngle: 0.92,
+  cameraViewDist: 190,
+  cameraViewAngle: 0.62,
+  alarmRise: 34,
+  alarmFall: 16,
+  alarmCameraRise: 24,
+  coinCount: 3,
+  smokeCount: 2,
+  smokeDuration: 4.5,
+  vaultValue: 500,
+};
+export const COLORS = {
+  floor: '#1b2233', floorAlt: '#202a40', wall: '#0d1017', cover: '#3a4a63',
+  gold: '#ffd34d', vault: '#ffb020', thief: '#37e08b', guard: '#ff5a5a',
+  camera: '#c792ff', van: '#4db2ff', text: '#eef2ff', muted: '#9fb0cc',
+};
